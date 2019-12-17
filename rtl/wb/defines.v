@@ -1,0 +1,7 @@
+`define ZCRV_ADDR_SIZE 32
+`define ZCRV_INSTR_SIZE 32
+`define ZCRV_REG_SIZE 5
+`define ZCRV_XLEN 32
+`define ZCRV_PHT_SIZE 32
+`define ZCRV_IMM_SIZE 32
+`define ZCRV_CSRADDR_SIZE 12
