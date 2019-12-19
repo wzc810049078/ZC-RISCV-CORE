@@ -1,7 +1,7 @@
 ZC RISCV CORE
 
 
-一个支持rv32imicsrifence指令集的处理器核，支持itcm和dtcm，实现了csr，支持外部中断，软件中断，计时器中断信号。
+一个支持rv32im Zicsr Zifence指令集的处理器核，支持itcm和dtcm，实现了csr，支持外部中断，软件中断，计时器中断信号。
 
 3级流水线：取指，译码/执行，回写。
 
@@ -16,7 +16,7 @@ isa中为由riscv-tests而得到的测试程序，直接读入itcm就能验证�
 邮箱：1808864162@qq.com
 
 
-A processor core supporting rv32imicsrifence instruction set, supporting ITCM and dtcm, realizing CSR, supporting external interrupt, software interrupt and external interrupt signal.
+A processor core supporting rv32im Zicsr Zifence instruction set, supporting ITCM and dtcm, realizing CSR, supporting external interrupt, software interrupt and TIME interrupt signal.
 
 
 3 stage pipeline: fetch, decode / execute, write back.
